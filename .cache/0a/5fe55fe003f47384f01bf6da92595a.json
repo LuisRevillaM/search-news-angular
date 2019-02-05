@@ -1,0 +1,1 @@
+{"id":"l2A2","dependencies":[],"generated":{"html":"<div> <search-bar on-search=\"$ctrl.fetchNews(searchTerm, sortCriteria)\"></search-bar><news-grid news=\"$ctrl.state.news\" status=\"$ctrl.state.status\"></news-grid> </div>"},"hash":"7759b882398c97bf92c533eec842e18e","cacheData":{}}

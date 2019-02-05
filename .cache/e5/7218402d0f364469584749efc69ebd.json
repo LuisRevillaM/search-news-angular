@@ -1,0 +1,1 @@
+{"id":"components/newsContainer/newsContainer.html","dependencies":[],"generated":{"html":"<div>\n  <search-bar on-search=\"$ctrl.fetchNews(searchTerm, sortCriteria)\"></search-bar><news-grid news=\"$ctrl.state.news\" status=\"$ctrl.state.status\"></news-grid>\n</div>\n"},"hash":"b13c046b531c45be8cd292b288c430d1","cacheData":{}}

@@ -1,0 +1,1 @@
+{"id":"fCkp","dependencies":[],"generated":{"html":"<div> <news-container> <div>{{$ctrl.state.status}}</div> </news-container> </div>"},"hash":"1ba0152e21a931f66de7060997ff6aea","cacheData":{}}

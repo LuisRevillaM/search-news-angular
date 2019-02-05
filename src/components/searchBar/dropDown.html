@@ -1,0 +1,16 @@
+<div class="search-bar__sort" ng-click="$ctrl.toggle()">
+  <div class="search-bar__sort-content">
+    {{$ctrl.content}}
+    <img alt="down arrow" ng-src="{{$ctrl.down}}" class="sort-arrow" />
+  </div>
+  <div class="search-bar__sort-dropdown" ng-show="$ctrl.isOpen">
+    <div
+      class="search-bar__sort-btn"
+      ng-repeat="(criteria,value) in $ctrl.sortCriteria"
+      ng-click="$ctrl.sort(criteria)"
+      style="display:block;"
+    >
+      {{value}}
+    </div>
+  </div>
+</div>

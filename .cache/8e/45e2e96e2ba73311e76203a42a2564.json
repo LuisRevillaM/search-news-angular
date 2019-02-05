@@ -1,0 +1,1 @@
+{"id":"Okk5","dependencies":[],"generated":{"html":"<div class=\"news-grid\"> <news-card ng-hide=\"$ctrl.loading\" ng-repeat=\"article in $ctrl.news\" info=\"article\"></news-card> <div ng-show=\"$ctrl.loading\" class=\"loading-container\"> <div class=\"loading\"> </div> </div> </div>"},"hash":"07ad31e8022a1e71647ce8e3e95d6585","cacheData":{}}

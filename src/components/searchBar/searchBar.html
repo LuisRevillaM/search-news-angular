@@ -1,0 +1,19 @@
+<div class="search-bar">
+  <input
+    class="search-bar__input"
+    placeholder="Search news"
+    ng-model="$ctrl.state.searchTerm"
+    type="text"
+    ng-keypress="$ctrl.onEnter($event)"
+  />
+  <drop-down
+    sort-articles="$ctrl.sortArticles(sortCriteria)"
+    criteria="$ctrl.state.sortCriteria"
+  ></drop-down>
+  <button
+    class="search-bar__btn"
+    ng-click="$ctrl.onSearch({searchTerm: $ctrl.state.searchTerm, sortCriteria: $ctrl.state.sortCriteria})"
+  >
+    Search
+  </button>
+</div>
