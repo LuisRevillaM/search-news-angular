@@ -3,8 +3,10 @@
     ng-hide="$ctrl.loading"
     ng-repeat="article in $ctrl.news"
     info="article"
-  ></news-card>
+  >
+  </news-card>
   <div ng-show="$ctrl.loading" class="loading-container">
-    <div class="loading" />
+    <div class="loading"></div>
   </div>
+  <div ng-show="$ctrl.error">Connection problems</div>
 </div>

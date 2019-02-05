@@ -24,9 +24,14 @@ const controller = [
         sortCriteria = "";
       }
       const promise = NewsService.fetchNews(searchTerm, sortCriteria);
-      promise.then(res => {
-        this.setState({ news: res.data.articles, status: "success" });
-      });
+      promise.then(
+        res => {
+          this.setState({ news: res.data.articles, status: "success" });
+        },
+        er => {
+          this.setState({ news: [], status: "error" });
+        }
+      );
     };
   }
 ];
