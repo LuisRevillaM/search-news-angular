@@ -1,1 +1,0 @@
-{"id":"components/app/app.html","dependencies":[],"generated":{"html":"<div>\n  <news-container> <div>{{$ctrl.state.status}}</div> </news-container>\n</div>\n"},"hash":"6d8b7cc454f41568590eb7b676ee697c","cacheData":{}}
