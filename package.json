@@ -12,6 +12,7 @@
     "angular": "^1.7.6"
   },
   "devDependencies": {
-    "cssnano": "^4.1.8"
+    "cssnano": "^4.1.8",
+    "parcel-bundler": "^1.11.0"
   }
 }
